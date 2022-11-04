@@ -133,7 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 18518008}
   - component: {fileID: 18518009}
-  m_Layer: 0
+  - component: {fileID: 18518010}
+  m_Layer: 6
   m_Name: Tiles_B1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,6 +171,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &18518010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18518007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &21947898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -254,7 +267,8 @@ GameObject:
   m_Component:
   - component: {fileID: 28476145}
   - component: {fileID: 28476146}
-  m_Layer: 0
+  - component: {fileID: 28476147}
+  m_Layer: 6
   m_Name: Tiles_C5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,6 +305,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &28476147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28476144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &76032106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -363,7 +389,8 @@ GameObject:
   m_Component:
   - component: {fileID: 80702631}
   - component: {fileID: 80702632}
-  m_Layer: 0
+  - component: {fileID: 80702633}
+  m_Layer: 6
   m_Name: Tiles_A1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,6 +427,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &80702633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80702630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &98376351
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +449,8 @@ GameObject:
   m_Component:
   - component: {fileID: 98376352}
   - component: {fileID: 98376353}
-  m_Layer: 0
+  - component: {fileID: 98376354}
+  m_Layer: 6
   m_Name: Tiles_B5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,6 +487,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &98376354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98376351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &102879355
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +509,8 @@ GameObject:
   m_Component:
   - component: {fileID: 102879356}
   - component: {fileID: 102879357}
-  m_Layer: 0
+  - component: {fileID: 102879358}
+  m_Layer: 6
   m_Name: Tiles_C4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,6 +547,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &102879358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102879355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &158733424
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +569,8 @@ GameObject:
   m_Component:
   - component: {fileID: 158733425}
   - component: {fileID: 158733426}
-  m_Layer: 0
+  - component: {fileID: 158733427}
+  m_Layer: 6
   m_Name: Tiles_E6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,6 +607,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &158733427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158733424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &196497125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -625,7 +703,8 @@ GameObject:
   m_Component:
   - component: {fileID: 234336595}
   - component: {fileID: 234336596}
-  m_Layer: 0
+  - component: {fileID: 234336597}
+  m_Layer: 6
   m_Name: Tiles_C1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -662,6 +741,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &234336597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234336594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &259443261
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +763,8 @@ GameObject:
   m_Component:
   - component: {fileID: 259443262}
   - component: {fileID: 259443263}
-  m_Layer: 0
+  - component: {fileID: 259443264}
+  m_Layer: 6
   m_Name: Tiles_D5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -709,6 +801,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &259443264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259443261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &288906177
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,7 +823,8 @@ GameObject:
   m_Component:
   - component: {fileID: 288906178}
   - component: {fileID: 288906179}
-  m_Layer: 0
+  - component: {fileID: 288906180}
+  m_Layer: 6
   m_Name: Tiles_A4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,6 +861,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &288906180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288906177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &347103277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -976,7 +1093,8 @@ GameObject:
   m_Component:
   - component: {fileID: 383852454}
   - component: {fileID: 383852455}
-  m_Layer: 0
+  - component: {fileID: 383852456}
+  m_Layer: 6
   m_Name: Tiles_F5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1013,6 +1131,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &383852456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383852453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &401514608
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,7 +1153,8 @@ GameObject:
   m_Component:
   - component: {fileID: 401514609}
   - component: {fileID: 401514610}
-  m_Layer: 0
+  - component: {fileID: 401514611}
+  m_Layer: 6
   m_Name: Tiles_G4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1060,6 +1191,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &401514611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401514608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &404311956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1213,8 @@ GameObject:
   m_Component:
   - component: {fileID: 404311957}
   - component: {fileID: 404311958}
-  m_Layer: 0
+  - component: {fileID: 404311959}
+  m_Layer: 6
   m_Name: Tiles_G3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1107,6 +1251,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &404311959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404311956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &409760814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1169,6 +1325,74 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7147807313747672578, guid: 4c3747016915c8f49961a0d7ba4eb514, type: 3}
   m_PrefabInstance: {fileID: 409760814}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &410086622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410086625}
+  - component: {fileID: 410086624}
+  - component: {fileID: 410086623}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &410086623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410086622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &410086624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410086622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &410086625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410086622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415696312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1403,8 @@ GameObject:
   m_Component:
   - component: {fileID: 415696313}
   - component: {fileID: 415696314}
-  m_Layer: 0
+  - component: {fileID: 415696315}
+  m_Layer: 6
   m_Name: Tiles_C2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1216,6 +1441,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &415696315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415696312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &458912602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1300,7 +1537,8 @@ GameObject:
   m_Component:
   - component: {fileID: 467902204}
   - component: {fileID: 467902205}
-  m_Layer: 0
+  - component: {fileID: 467902206}
+  m_Layer: 6
   m_Name: Tiles_D2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1337,6 +1575,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &467902206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467902203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &557172661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1409,7 +1659,8 @@ GameObject:
   m_Component:
   - component: {fileID: 558760151}
   - component: {fileID: 558760152}
-  m_Layer: 0
+  - component: {fileID: 558760153}
+  m_Layer: 6
   m_Name: Tiles_D4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,6 +1697,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &558760153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558760150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &580306106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1530,7 +1793,8 @@ GameObject:
   m_Component:
   - component: {fileID: 587040921}
   - component: {fileID: 587040922}
-  m_Layer: 0
+  - component: {fileID: 587040923}
+  m_Layer: 6
   m_Name: Tiles_D1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1567,6 +1831,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &587040923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587040920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &590436106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2209,7 +2485,8 @@ GameObject:
   m_Component:
   - component: {fileID: 911215841}
   - component: {fileID: 911215842}
-  m_Layer: 0
+  - component: {fileID: 911215843}
+  m_Layer: 6
   m_Name: Tiles_A3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2246,6 +2523,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &911215843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911215840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &951130683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2714,7 +3003,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1146525443}
   - component: {fileID: 1146525444}
-  m_Layer: 0
+  - component: {fileID: 1146525445}
+  m_Layer: 6
   m_Name: Tiles_F4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2751,6 +3041,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1146525445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146525442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1176209153
 GameObject:
   m_ObjectHideFlags: 0
@@ -2761,7 +3063,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1176209154}
   - component: {fileID: 1176209155}
-  m_Layer: 0
+  - component: {fileID: 1176209156}
+  m_Layer: 6
   m_Name: Tiles_E5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2798,6 +3101,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1176209156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176209153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1201123145
 GameObject:
   m_ObjectHideFlags: 0
@@ -2808,7 +3123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201123146}
   m_Layer: 0
-  m_Name: Tiles
+  m_Name: Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2864,7 +3179,7 @@ Transform:
   - {fileID: 404311957}
   - {fileID: 401514609}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1221996911
 GameObject:
@@ -2876,7 +3191,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1221996912}
   - component: {fileID: 1221996913}
-  m_Layer: 0
+  - component: {fileID: 1221996914}
+  m_Layer: 6
   m_Name: Tiles_C3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2913,6 +3229,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1221996914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221996911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1236101023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2923,7 +3251,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1236101024}
   - component: {fileID: 1236101025}
-  m_Layer: 0
+  - component: {fileID: 1236101026}
+  m_Layer: 6
   m_Name: Tiles_E3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2960,6 +3289,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1236101026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236101023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1283966065
 GameObject:
   m_ObjectHideFlags: 0
@@ -2970,7 +3311,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1283966066}
   - component: {fileID: 1283966067}
-  m_Layer: 0
+  - component: {fileID: 1283966068}
+  m_Layer: 6
   m_Name: Tiles_D3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3007,6 +3349,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1283966068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283966065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1409754234
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,7 +3371,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1409754235}
   - component: {fileID: 1409754236}
-  m_Layer: 0
+  - component: {fileID: 1409754237}
+  m_Layer: 6
   m_Name: Tiles_D7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3054,6 +3409,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1409754237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409754234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1411712410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3368,7 +3735,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1539265971}
   - component: {fileID: 1539265972}
-  m_Layer: 0
+  - component: {fileID: 1539265973}
+  m_Layer: 6
   m_Name: Tiles_G2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3405,6 +3773,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1539265973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539265970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1555246816
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,7 +3795,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1555246817}
   - component: {fileID: 1555246818}
-  m_Layer: 0
+  - component: {fileID: 1555246819}
+  m_Layer: 6
   m_Name: Tiles_B3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3452,6 +3833,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1555246819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555246816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1555891761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3596,9 +3989,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1635514561}
+  - component: {fileID: 1635514563}
   - component: {fileID: 1635514560}
   - component: {fileID: 1635514559}
+  - component: {fileID: 1635514562}
+  - component: {fileID: 1635514561}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3657,21 +4052,63 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1635514561
-Transform:
+--- !u!114 &1635514561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635514558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 64
+  m_MaxRayIntersections: 0
+--- !u!223 &1635514562
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635514558}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1635514563
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635514558}
   m_LocalRotation: {x: 0.19477458, y: -0.67975205, z: 0.19477458, w: 0.67975205}
-  m_LocalPosition: {x: 2.858, y: 3.5, z: -1.165}
+  m_LocalPosition: {x: 0, y: 0, z: -1.165}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 31.978, y: -90, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.858, y: 3.5}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1709529343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3682,7 +4119,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1709529344}
   - component: {fileID: 1709529345}
-  m_Layer: 0
+  - component: {fileID: 1709529346}
+  m_Layer: 6
   m_Name: Tiles_F3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3719,6 +4157,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1709529346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709529343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1743410599
 GameObject:
   m_ObjectHideFlags: 0
@@ -3729,7 +4179,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1743410600}
   - component: {fileID: 1743410601}
-  m_Layer: 0
+  - component: {fileID: 1743410602}
+  m_Layer: 6
   m_Name: Tiles_F2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3766,6 +4217,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1743410602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743410599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1786285512
 GameObject:
   m_ObjectHideFlags: 0
@@ -3776,7 +4239,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1786285513}
   - component: {fileID: 1786285514}
-  m_Layer: 0
+  - component: {fileID: 1786285515}
+  m_Layer: 6
   m_Name: Tiles_E1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3813,6 +4277,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1786285515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786285512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1820227845
 GameObject:
   m_ObjectHideFlags: 0
@@ -3823,7 +4299,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1820227846}
   - component: {fileID: 1820227847}
-  m_Layer: 0
+  - component: {fileID: 1820227848}
+  m_Layer: 6
   m_Name: Tiles_B2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3860,6 +4337,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1820227848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820227845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1826120897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3944,7 +4433,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1883324239}
   - component: {fileID: 1883324240}
-  m_Layer: 0
+  - component: {fileID: 1883324241}
+  m_Layer: 6
   m_Name: Tiles_E2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3981,6 +4471,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1883324241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883324238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1889060518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4053,7 +4555,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1935959202}
   - component: {fileID: 1935959203}
-  m_Layer: 0
+  - component: {fileID: 1935959204}
+  m_Layer: 6
   m_Name: Tiles_C6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4090,6 +4593,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1935959204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935959201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1944696072
 GameObject:
   m_ObjectHideFlags: 0
@@ -4100,7 +4615,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1944696073}
   - component: {fileID: 1944696074}
-  m_Layer: 0
+  - component: {fileID: 1944696075}
+  m_Layer: 6
   m_Name: Tiles_E4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4137,6 +4653,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1944696075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944696072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1949487943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4209,7 +4737,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1961806953}
   - component: {fileID: 1961806954}
-  m_Layer: 0
+  - component: {fileID: 1961806955}
+  m_Layer: 6
   m_Name: Tiles_G1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4246,6 +4775,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1961806955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961806952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1983131898
 GameObject:
   m_ObjectHideFlags: 0
@@ -4256,7 +4797,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1983131899}
   - component: {fileID: 1983131900}
-  m_Layer: 0
+  - component: {fileID: 1983131901}
+  m_Layer: 6
   m_Name: Tiles_D6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4293,6 +4835,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &1983131901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983131898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2004888935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4377,7 +4931,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2045272777}
   - component: {fileID: 2045272778}
-  m_Layer: 0
+  - component: {fileID: 2045272779}
+  m_Layer: 6
   m_Name: Tiles_F1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4414,6 +4969,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &2045272779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045272776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2096700930
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,7 +4991,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2096700931}
   - component: {fileID: 2096700932}
-  m_Layer: 0
+  - component: {fileID: 2096700933}
+  m_Layer: 6
   m_Name: Tiles_B4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4461,6 +5029,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &2096700933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096700930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2109712030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4545,7 +5125,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2128112084}
   - component: {fileID: 2128112085}
-  m_Layer: 0
+  - component: {fileID: 2128112086}
+  m_Layer: 6
   m_Name: Tiles_A2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4582,3 +5163,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4866372484537245367, guid: 764fa1dcd8cad444fb23b1a523c46059, type: 3}
+--- !u!114 &2128112086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128112083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0949b63ab3da36d4fb1c09cf661ea3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
