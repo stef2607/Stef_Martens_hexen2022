@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Renderer))]
-public class Tile : MonoBehaviour, IPointerClickHandler
+public class Tile : MonoBehaviour//, IPointerClickHandler
 {
     [SerializeField]
     private Material _defaultMaterial;
@@ -24,9 +24,6 @@ public class Tile : MonoBehaviour, IPointerClickHandler
         _board = FindObjectOfType<Board>();
         _renderer = GetComponentInChildren<Renderer>();
     }
-
-    public void OnPointerClick(PointerEventData eventData)
-       => _board.Select(this);
 
 
     public void Highlight()

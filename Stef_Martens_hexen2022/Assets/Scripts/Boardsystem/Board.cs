@@ -9,18 +9,13 @@ public class Board : MonoBehaviour
 
     [SerializeField]
     private LayerMask _tilesLayer;
-    Tile[] allTiles;
-
-    public void OnEnable()
-    {
-        allTiles = GameObject.FindObjectsOfType<Tile>();
-    }
 
 
-    public void Select(Tile tile)
+    public static void SelectNeighbours(Tile tile)
     {
         tile.Highlight();
         List<Tile> neighbours = new List<Tile>();
+        var allTiles = GameObject.FindObjectsOfType<Tile>();
         foreach (var item in allTiles)
         {
             if ((item.Q == tile.Q || item.Q + 1 == tile.Q || item.Q - 1 == tile.Q) &&
@@ -34,5 +29,9 @@ public class Board : MonoBehaviour
         {
             item.Highlight();
         }
+    }
+
+    public static void Teleport(Tile tile){
+        
     }
 }
